@@ -2,6 +2,7 @@ batchNum=$1
 tzAddresses="tz1and-"$batchNum".txt"
 twIds="tz1and-tw-addr-"$batchNum".txt"
 
+cp accounts-combined.txt accounts-combined-bkp.txt
 echo "--------------------------------------------------------------------------------"
 echo "create tz1and-"$batchNum".txt file with wallet ids"
 echo "create tz1and-tw-addr-"$batchNum".txt with twitter ids with leading @ removed"
